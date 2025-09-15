@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Domirando'
-export const siteTitle = 'Domirando`s Blog App'
+export const siteTitle = 'Domirando`s Blog'
 
 export default function Layout({children, home}) {
     return (
@@ -33,7 +33,7 @@ export default function Layout({children, home}) {
                                 priority
                                 src="/images/profile.jpg"
                                 className={utilStyles.borderCircle}
-                                height={144}
+                                height={140}
                                 width={144}
                                 alt={name}
                             />
@@ -70,7 +70,7 @@ export default function Layout({children, home}) {
                     </div>
                 )}
             </div>
-            <footer className={styles.footer}>A Front-End Developer and Computer Science, Machine Learning enthusiast from Uzbekistan 2021 &copy;</footer>
+            <footer className={styles.footer}>A Front-End Developer and Computer Science, Machine Learning enthusiast from Uzbekistan 2021-2025 &copy;</footer>
 		</>
 	)
 }
