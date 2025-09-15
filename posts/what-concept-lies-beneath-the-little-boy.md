@@ -1,5 +1,5 @@
 ---
-title: 'what concept lies beneath the little boy?'
+title: 'What concept lies beneath the little boy?'
 date: '2025-09-15'
 ---
 
